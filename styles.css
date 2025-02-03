@@ -1,1 +1,17 @@
-/* your code */
+table,td,th{
+	border:solid;
+	border-collapse:collapse;
+
+}
+
+ tbody tr:nth-child(odd){
+	background-color:lightblue;
+	
+}
+tbody tr:nth-child(even){
+	background-color:yellow;
+	
+}
+thead tr{
+	background-color:lightgreen;
+}
